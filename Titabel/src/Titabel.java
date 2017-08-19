@@ -4,10 +4,15 @@
  */
 public class Titabel {
 
+    public static void main(String[] args) {
+        tabel(1);
+        tabel(3);
+        tabel(5);
 
 
+    }
 
-    public void tabel (int counter){
+    public void tabel(int counter){
 
         System.out.println("The " + counter + " line is:");
 
